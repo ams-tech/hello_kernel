@@ -25,11 +25,11 @@ module_exit(hello_exit);
 
 int __init hello_init(void)
 {
-	printk(KERN_ALERT "Hello kernel!  Our module has started.\r\n");
+	printk(KERN_EMERG "Hello kernel!  Our module has started.\r\n");
 	return 0;
 }
 
 void __exit hello_exit(void)
 {
-	printk(KERN_ALERT "Goodbye kernel!  Our module has exited.\r\n");
+	printk(KERN_EMERG "Goodbye kernel!  Our module has exited.\r\n");
 }
