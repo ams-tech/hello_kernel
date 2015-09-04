@@ -1,0 +1,11 @@
+*.tmp_versions
+*.mod.c
+*.symvers
+build
+install
+linux
+*/build
+*.cmd
+*.o
+*.ko
+*.order
