@@ -1,0 +1,6 @@
+EXTRA_CFLAGS := -Iinc
+
+obj-m := hello_kernel.o
+hello_kernel-y := src/init.o
+
+
